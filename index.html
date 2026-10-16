@@ -15,18 +15,50 @@
 
 <body>
 
-    <!------------------------------>
-    <!-- Your HTML Layout go here -->
-    <!------------------------------>
-    <!-- Stuff for body goes here -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="c:\Users\salin\OneDrive\Desktop\comp1800\placeholder_logo.png"
+           height="60"
+           alt="PLACEHOLDER IMG">
+    </a>
 
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <!---------------------------------------------->
-    <!-- Your own JavaScript functions go here    -->
-    <!---------------------------------------------->
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav list-unstyled d-flex flex-row gap-3">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">NOTIFICATIONS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">QUIZZES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">BOOKMARKED</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">SETTINGS</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-    <!-- Link to scripts of your own -->
-    <!-- <script type="module" src="./src/main.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script type="module" src="./src/main.js"></script>
 
 </body>
 
